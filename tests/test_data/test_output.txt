@@ -1,0 +1,7 @@
+Customers who live in the range of 100 km to the office.
+
+user_id	name	distance
+6	Theresa Enright	24.09
+8	Eoin Ahearn	83.53
+12	Christina McArdle	41.77
+26	Stephen McArdle	98.87
