@@ -34,12 +34,14 @@ forget, you'll need to convert degrees to radians.
 
 ## Run
 **Command to Run the script :**
-* `python3 customer_party_list.py` 
+* `python3 customer_party_list.py`
 
 It will print the list of customers within the 100km of given Intercom office coordinates. It will also generate the output.txt file with the filtered customers.
 
 ## Test
 **Command to Test the script :**
-* `python3 -m pytest tests/test_customer_party_list.py` 
+* `python3 -m pytest tests/test_customer_party_list.py`
 
-There are 8 testcases which tests the functionaly of the entire script. The folder test_data has the files which are used in the testcases.
+Test cases are located inside the tests/test_customer_party_list.py. There are 8 testcases which tests the functionaly of the entire script. The folder test_data has the files which are used in the testcases.
+
+The Answer to the `Proudest Achievement` is inside the file `proudest_achievement.txt`.

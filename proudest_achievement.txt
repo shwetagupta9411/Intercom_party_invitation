@@ -1,0 +1,10 @@
+1. Technical Problem
+Please find the solution - https://github.com/shwetagupta9411/Intercom_party_invitation
+
+2. Proudest Achievement
+What's your proudest achievement? It can be a personal project or something you've worked on
+professionally. Just a short paragraph is fine, but I'd love to know why you're proud of it, what
+impact it had (If any) and any insights you took from it.
+
+Answer
+My proudest achievement was when I built a chrome extension for campaign sync utility.One of the clients used to have 2 platforms forDeals/Packages for customers, internal-facing vs external facing. Whenever there is a deal created on behalf of the client's client by the customer they were creating on the internal interface. Later my client had to sit and synchronize the 2 platforms to match the entities created/updated.And then I came up with the idea of Campaign sync utilityChrome extension. It helped them solve the problem by syncing both systems using REST API integration. It also helped them to save their time and human power. AndThey loved the product.The reason I feel it’s my achievement is, getting permission for this project was not an easy task. But after the result of the success and the amount of love, the client gave to the project, everybody appreciated it.Chrome extension was built using React JS and webpack for asset packaging. It is made available to customers using a private Chrome store. The extension has a configuration screen for user credentials and configuration for the sync. If enabled used to sync both systems. Old platform to new platform and vice versa.
