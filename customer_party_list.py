@@ -2,7 +2,7 @@ import json, os
 from math import radians, cos, sin, asin, sqrt
 
 """ To run the script, run the bellow command:
-`python3 customer_party_list.py` 
+`python3 customer_party_list.py`
 """
 
 class CustomerPartyList(object):
@@ -53,6 +53,7 @@ class CustomerPartyList(object):
         try:
             with open(output_file, "w") as outfile:
                 if len(customers_list) != 0:
+                    print("Customers who live in the range of 100 km to the office.\n")
                     outfile.write("Customers who live in the range of 100 km to the office.\n")
                     outfile.write("\nCustomer_ID \tName \tDistance(km)\n")
                     print("\nCustomer_ID\tName      \tDistance(km) \n")
@@ -60,7 +61,7 @@ class CustomerPartyList(object):
                         print('\t\t'.join(str(e) for e in item))
                         outfile.write('\t\t'.join(str(e) for e in item))
                         outfile.write('\n')
-                print("\nOutput file output.txt is generated with the list of customers to invite.\n")
+                print("\nOutput file output.txt is also generated with the list of customers to invite.\n")
         except (OSError, IOError) as e:
             print("Opps, Filepath or content is incorrect.\n", str(e))
 
