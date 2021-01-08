@@ -1,6 +1,10 @@
 import json, os
 from math import radians, cos, sin, asin, sqrt
 
+""" To run the script, run the bellow command:
+python3 customer_party_list.py 
+"""
+
 class CustomerPartyList(object):
     def __init__(self, file, office_lat, office_lon, distance_within, output):
         self.EARTH_RADIUS = 6371 # Radius of earth (mean) in km
@@ -50,9 +54,13 @@ class CustomerPartyList(object):
             with open(output_file, "w") as outfile:
                 if len(customers_list) != 0:
                     outfile.write("Customers who live in the range of 100 km to the office.\n")
-                    outfile.write("\nuser_id\tname\tdistance\n")
-                    outfile.write("\n".join('\t'.join(str(e) for e in item) for item in customers_list))
-                # print("\nOutput file is generated with the list of customers to invite.\n")
+                    outfile.write("\nCustomer_ID \tName \tDistance(km)\n")
+                    print("\nCustomer_ID\tName      \tDistance(km) \n")
+                    for item in customers_list:
+                        print('\t\t'.join(str(e) for e in item))
+                        outfile.write('\t\t'.join(str(e) for e in item))
+                        outfile.write('\n')
+                print("\nOutput file output.txt is generated with the list of customers to invite.\n")
         except (OSError, IOError) as e:
             print("Opps, Filepath or content is incorrect.\n", str(e))
 
