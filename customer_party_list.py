@@ -53,7 +53,7 @@ class CustomerPartyList(object):
         try:
             with open(output_file, "w") as outfile:
                 if len(customers_list) != 0:
-                    print("Customers who live in the range of 100 km to the office.\n")
+                    print("Customers who live in the range of 100 km to the office.")
                     outfile.write("Customers who live in the range of 100 km to the office.\n")
                     outfile.write("\nCustomer_ID \tName \tDistance(km)\n")
                     print("\nCustomer_ID\tName      \tDistance(km) \n")
