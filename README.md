@@ -10,3 +10,23 @@ and user ids of matching customers (within 100km), sorted by User ID (ascending)
 * You must use the first formula from this Wikipedia article to calculate distance. Don't
 forget, you'll need to convert degrees to radians.
 * The GPS coordinates for our Dublin office are 53.339428, -6.257664.
+
+## Set-up
+
+**Pre-requisites :**
+* Python3 should be installed
+
+**Set-up with the virtual environment :**
+1. `git clone https://github.com/shwetagupta9411/intercom_party_invitation.git`
+3. `pip3 install virtualenv` (if you don't have virtualenv installed)
+4. `virtualenv intercom`
+5. `source intercom/bin/activate`
+6. `cd intercom_party_invitation/`
+5. `pip install -r requirements.txt`
+
+### OR
+
+**Set-up without the virtual environment :**
+1. `git clone https://github.com/shwetagupta9411/intercom_party_invitation.git`
+2. `pip3 install pytest`
+3. `cd intercom_party_invitation/`
