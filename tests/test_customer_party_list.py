@@ -2,7 +2,7 @@ import pytest, os
 from customer_party_list import CustomerPartyList
 
 """ To run the test testcases, run the bellow command:
-python3 -m pytest tests/test_customer_party_list.py
+`python3 -m pytest tests/test_customer_party_list.py`
 """
 
 FILE = "tests/test_data/test_customers.txt"

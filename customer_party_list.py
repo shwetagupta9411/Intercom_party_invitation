@@ -2,7 +2,7 @@ import json, os
 from math import radians, cos, sin, asin, sqrt
 
 """ To run the script, run the bellow command:
-python3 customer_party_list.py 
+`python3 customer_party_list.py` 
 """
 
 class CustomerPartyList(object):
