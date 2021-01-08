@@ -14,7 +14,8 @@ forget, you'll need to convert degrees to radians.
 ## Set-up
 
 **Pre-requisites :**
-* Python3 should be installed
+* `Python3` should be installed.
+* `pytest` is been used to write the testcases.
 
 **Set-up with the virtual environment :**
 1. `git clone https://github.com/shwetagupta9411/intercom_party_invitation.git`
@@ -24,9 +25,21 @@ forget, you'll need to convert degrees to radians.
 6. `cd intercom_party_invitation/`
 5. `pip install -r requirements.txt`
 
-### OR
+#### OR
 
 **Set-up without the virtual environment :**
 1. `git clone https://github.com/shwetagupta9411/intercom_party_invitation.git`
 2. `pip3 install pytest`
 3. `cd intercom_party_invitation/`
+
+## Run
+**Command to Run the script :**
+* `python3 customer_party_list.py` 
+
+It will print the list of customers within the 100km of given Intercom office coordinates. It will also generate the output.txt file with the filtered customers.
+
+## Test
+**Command to Test the script :**
+* `python3 -m pytest tests/test_customer_party_list.py` 
+
+There are 8 testcases which tests the functionaly of the entire script. The folder test_data has the files which are used in the testcases.
